@@ -1,0 +1,41 @@
+* {
+  border-radius: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Noto Serif', sans-serif;
+  font-weight: var(--font-weight);
+  line-height: 1.6;
+}
+
+.page-header {
+  padding: 20px;
+  display: flex;
+  max-width: 100%;
+  border-bottom: 2px solid red;
+}
+
+.page-header-item {
+  flex: 0 1 200px;
+}
+
+.navigation-list li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.navigation-list {
+  border: 1px; 
+  margin-left: 50px;
+  list-style-type: none;
+}
+
+.navigation-list-item {
+  font-style: italic;
+}
+
+.page-header .page-header-item:last-child {
+  flex-grow: 1;
+  text-align: center;
+}
